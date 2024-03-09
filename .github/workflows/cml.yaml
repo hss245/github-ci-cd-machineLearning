@@ -1,0 +1,18 @@
+name: harpreet-github-ci-cd-machinelearning-example
+on: [push]
+jobs:
+  run:
+    runs-on: [ubuntu-latest]
+    container: docker://dvcorg/cml-py3:latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: 'Training Models and Finding Models Statistics such as Train Accuracy, Test Accuracy, Precision, Recall and F1-Score.'
+        env:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+
+          pip install -r requirements.txt
+          python script.py
+          
+          echo "## Models Statistics" > report.md
+          cat modelStatistic.txt >> report.md
