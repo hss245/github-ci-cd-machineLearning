@@ -1,0 +1,27 @@
+Model Name : 'Logistic Regression', 
+        Train Accuracy : '0.8582144237046512, 
+        Test Accuracy : 0.8573940847322142, 
+        Recall Score: 0.7147225862822193,
+        Precision Score: 0.8725333333333334,
+        F1 Score: 0.7857829010566763'
+
+Model Name : 'Decision Tree', 
+        Train Accuracy : '0.924830462182075, 
+        Test Accuracy : 0.8849720223820943, 
+        Recall Score: 0.8043905635648755,
+        Precision Score: 0.8713913866540464,
+        F1 Score: 0.8365515674693321'
+
+Model Name : 'Random Forest Classifier', 
+        Train Accuracy : '0.924830462182075, 
+        Test Accuracy : 0.8924460431654676, 
+        Recall Score: 0.8291830493665356,
+        Precision Score: 0.87074205757541,
+        F1 Score: 0.8494545454545455'
+
+Model Name : 'Ada Boost Classifier', 
+        Train Accuracy : '0.8738025767083684, 
+        Test Accuracy : 0.8747801758593126, 
+        Recall Score: 0.8022062035823504,
+        Precision Score: 0.8474674050998039,
+        F1 Score: 0.8242159008023341'
